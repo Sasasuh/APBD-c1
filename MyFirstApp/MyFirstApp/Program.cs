@@ -8,13 +8,13 @@ Console.WriteLine("Modyfication 3");
 
 static double GetAverage(int[] numbers)
 {
-    int sum = 0;
+    int suma = 0;
     foreach (var number in numbers)
     {
-        sum += number;
+        suma += number;
     }
 
-    return (double)sum / numbers.Length;
+    return (double)suma / numbers.Length;
 }
 
 static int MaxValue(int[] numbers)
